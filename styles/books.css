@@ -1,0 +1,74 @@
+.book-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.book-image {
+    margin: 0 auto; /* Center the image */
+    object-fit: contain;
+}
+
+
+.books img {
+    margin-right: 20px;
+    max-width: 100%; /* The image will not exceed the width of its container */
+}
+
+.book-title {
+    margin: 0;        /* Remove default margin */
+    margin-top: 20px;
+    font-weight: bold; 
+}
+
+.subtitle-year-container {
+    display: flex;          /* Use flexbox for layout */
+    align-items: center;   /* Center vertically */
+    margin: 5px 0;        /* Optional: Space between title and subtitle/year */
+}
+
+.book-subtitle {
+    margin: 0;            /* Remove margin to align with title */
+    font-weight: bold;    /* Keep subtitle bold */
+    margin-right: 10px;   /* Space between subtitle and year */
+}
+
+.book-year {
+    margin: 0;            /* Remove default margin */
+    font-weight: normal;  /* Set year font weight */
+}
+
+.book-description {
+    margin-top: 20px;     /* Space above the description */
+}
+
+/*small ipad*/
+@media (min-width: 768px) {
+.book-item{
+    display: flex;
+    flex-direction: row-reverse; /* Place the image to the right */
+}
+
+.text-container {
+    margin-right: 20px; /* Space between text and image */
+    /* Other styling properties, e.g., max-width, etc. */
+}
+}
+
+/*desktop*/
+@media (min-width: 1200px) {
+}
+
+/*desktop*/
+@media (min-width: 1200px) {
+    .books-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;}
+    
+    .book-item{
+        border: 1px solid var(--dark-beige);
+        border-radius: 5px;
+        margin: 5px;
+        padding: 10px;
+    }
+    hr {display: none;}
+}

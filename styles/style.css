@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    transition: all 0.2s ease-in-out;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: var(--lighter-beige);
+    color: var(--text-base-color);
+}
+
+
+section h2 {
+    background-color: var(--lighter-blue);
+    color: var(--dark-beige);
+    padding: 20px;
+    font-family: var(--font-family-h3);
+}
+
+p{line-height: 1.5;}
+/*
+section div{    
+   padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+}
+*/
+
+#bio-text-boxes, #tour-events-container, .books-container, .contact-flex-box{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+img {
+    display: block;          /* Removes inline display space */
+    max-width: 100%;        /* Ensures images are responsive */
+    height: auto;           /* Maintains aspect ratio */
+    border: none;           /* Removes default border */
+    padding: 0;             /* Removes default padding */
+    margin: 0;              /* Removes default margin */
+    outline: none;          /* Removes any outline */
+}
+.round-image {
+    width: 150px;          /* Set a width */
+    height: 150px;         /* Set a height equal to the width */
+    border-radius: 50%;    /* Makes the image round */
+    object-fit: cover;     /* Ensures the image covers the entire area without distortion */
+}
+.rounded-corners{
+    border-radius: 10px;
+}
+
+/* Style for the Up Arrow button */
+.up-arrow {
+    position: fixed;          /* Fixed position */
+    bottom: 20px;            /* Distance from the bottom of the viewport */
+    right: 20px;             /* Distance from the right side of the viewport */
+    z-index: 1000;           /* Ensure it's on top of other content */
+    display: block;          /* Ensure it behaves as a block-level element */
+    background: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background */
+    border-radius: 5px;      /* Optional: rounded corners */
+    padding: 10px;           /* Optional: padding around the image */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+}
+
+/* To style the image */
+.up-arrow img {
+    display: block;           /* Ensure the image behaves like a block element */
+    width: 40px;             /* Adjust size of the arrow */
+    height: auto;            /* Maintain aspect ratio */
+}
+
+
+/*only shows on small tablet and wider screens*/
+.show-on-small-ipad{display: none;}
+@media (min-width: 768px) {
+    .show-on-small-ipad{display: block;}
+}
+/*only shows on big tablet and wider screens*/
+.show-on-big-ipad{display: none;}
+@media (min-width: 810px) {
+    .show-on-big-ipad{display: block;}
+}
+/*Only show on DESKTOP and wider screens*/
+.show-on-desktop{display: none;}
+@media (min-width: 1200px) {
+    .show-on-desktop{display: block;}
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+

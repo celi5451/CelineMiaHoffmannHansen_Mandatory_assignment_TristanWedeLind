@@ -1,0 +1,55 @@
+.bio p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.quote {
+    background-color:var(--lighter-blue);
+    color: var(--lighter-beige); 
+    padding: 15px 20px;
+    font-style: italic;
+    margin: 20px;
+    border-radius: 10px; 
+    text-align: center;
+}
+
+.quote cite {
+    display: block;
+    font-style: normal;
+    margin: 10px;
+    text-align: right;
+}
+
+#bio-text-boxes{padding-top: 20px;}
+
+/*big tablet*/
+@media (min-width: 810px) {
+#bio{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.bio-book-text {
+    text-align: center;
+    h3{
+    font-size: var(--font-size-small-h3);
+}
+h4{font-weight: lighter;
+    font-size: var(--font-size-small-h4);
+}
+p{font-size: var(--font-size-p-small);}
+}
+.bio-books{
+    padding-top: 20px;
+    padding-right: 20px;}
+}
+
+@media (min-width: 1200px) {
+    #bio{
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+    }
+    .bio-books{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -1,0 +1,41 @@
+
+.tour-event {
+    padding: 20px;
+    padding-left: 0;
+}
+
+.tour-date {
+    font-weight: normal;
+    color: var(--text-base-color);
+}
+.tour_date_flex{display: flex;}
+.tour-title {
+    color: var(--dark-blue);
+    font-family: var(--font-family-h3);
+}
+
+.tour-role {
+    color: var(--text-base-color);
+}
+
+.tour-location {
+    color: var(--text-base-color);
+}
+
+#on-tour-img{
+padding: 20px;
+margin:0 auto;}
+
+/*desktop*/
+@media (min-width: 1200px) {
+    #tour-events-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;}
+    
+    .tour-event{
+        border: 1px solid var(--dark-beige);
+        border-radius: 5px;
+        margin: 5px;
+        padding: 10px;
+    }
+}

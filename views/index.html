@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tristan Wede Lind - Web Developer & Author</title>
+    <script src="/script/on-tour.js" defer></script>
+    <script src="/script/books.js" defer></script>
+        <!-- CSS files -->
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/on_tour.css">
+    <link rel="stylesheet" href="/styles/books.css">
+    <link rel="stylesheet" href="/styles/contact.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/header.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-flex">
+            <img src="/img/lind.png" class="round-image show-on-small-ipad" alt="Profile Picture" style="float: left; margin-right: 20px; width: 150px; height: auto;">            
+            <div>
+                <h1 class="big-header">Tristan Wede Lind</h1>
+                <p class="p-big">Web Developer, Author, and Speaker</p>
+            </div>  
+            <select id="language-switcher">
+                <option value="EN">EN</option>
+                <option value="DA">DA</option>
+            </select>        
+        </div>
+            
+    <nav>
+        <a href="#bio">Bio</a>
+        <a href="#quote">Quote</a>
+        <a href="#on-tour">On Tour</a>
+        <a href="#books">Books</a>
+        <a href="#contact">Contact</a>
+    </nav>    
+    </header>
+    <a href="#top" class="up-arrow">
+        <img src="/img/up-arrow.png" alt="Up Arrow">
+    </a>
+    <section id="new-release">
+        <div class="release-text">
+        <button class="new-release-button">New Release</button>
+        <h3>Advanced PHP: From Zero to Hero</h3>
+        <p>© 2023 KEA Publishing</p>
+    </div>
+        <img src="/img/book_php_preview.png" alt="Advanced PHP Book Preview" class="release-book-image rounded-corners">
+    </section>
+    
+
+    <section id="bio" class="bio">
+        <div id="bio-text-boxes">
+        <p>A Copenhagen native, Tristan Wede Lind has established himself as a leading authority in web development, captivating audiences worldwide with his profound knowledge of various technologies and methodologies. With a career spanning over two decades, Lind has honed his skills working for industry giants, where he contributed to cutting-edge projects that pushed the boundaries of web development.</p>
+        <p>Lind's latest achievements showcase his commitment to advancing the field. Through meticulous research and hands-on experience, he has developed novel approaches to web design, user experience optimization, and responsive development, ensuring that websites and applications deliver immersive and intuitive experiences across devices.</p>
+        <p>As an accomplished author, Lind has authored numerous critically acclaimed books that serve as essential guides for aspiring web developers and industry professionals alike. His publications, revered for their clarity, depth, and practicality, have garnered widespread acclaim and have been translated into multiple languages, solidifying his reputation as an influential figure in the global web development community.</p>
+            <section id="quote" class="quote">
+            <p>Tristan Wede Lind's books on web development are an invaluable resource for both novices and seasoned professionals. His comprehensive yet accessible approach demystifies complex concepts, providing practical guidance that translates directly into real-world success. Lind's expertise shines through in every page, making his works an indispensable addition to any developer's library.</p>
+            <cite> The Tech Tribune</cite>
+            </section>
+    <p>In addition to his professional accomplishments, Lind is known for his dedication to sharing his expertise through conferences, workshops, and online platforms. As a sought-after speaker, he has enlightened audiences with his insightful talks, empowering developers to embrace emerging technologies and adapt to the ever-evolving digital landscape.</p>
+    </div>
+    <div class="show-on-big-ipad bio-books">
+        <div>
+        <!-- Book 2 -->
+        <div class="book">
+            <img src="/img/book_css.png" alt="CSS for Developers cover image" class="book-image" />
+            <div class="bio-book-text">
+            <h3 class="book-title">CSS for Developers</h3>
+            <h4 class="book-subtitle">A Visual Journey</h4>
+            <p class="book-year">2022</p>
+            </div>
+        </div>
+
+        <!-- Book 3 -->
+
+            <div class="book">
+                <img src="/img/book_js.png" alt="Advanced JavaScript cover image" class="book-image" />
+                    <div class="bio-book-text">
+                    <h3 class="book-title">Advanced JavaScript</h3>
+                    <h4 class="book-subtitle">Frameworkless</h4>
+                    <p class="book-year">2021</p>
+                    </div>
+                </div>
+            </div>
+                
+                <div class="show-on-desktop">
+                <!-- Book 3 -->
+                <div class="book">
+                    <img src="/img/book_html.png" alt="Basic Programming cover image" class="book-image" />
+                    <div class="bio-book-text">
+                        <h3 class="book-title">Semantic HTML</h3>
+                        <h4 class="book-subtitle">Foundation of the Web</h4>
+                        <p class="book-year">2019</p>
+                    </div>
+                </div>
+
+                <!-- Book 4 -->
+                <div class="book">
+                    <img src="/img/book_programming.png" alt="Basic Programming cover image" class="book-image" />
+                    <div class="bio-book-text">
+                        <h3 class="book-title">Basic Programming</h3>
+                        <h4 class="book-subtitle">Algorithms and Beyond</h4>
+                        <p class="book-year">2017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+  
+    <!-- On Tour Section -->
+    <section id="on-tour">
+        <h2>On Tour</h2>
+        <img src="/img/tristan_1280.jpg" id="on-tour-img" alt="Tristan">
+        
+        <div id="tour-events-container">
+
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2023, December 6-8</p>
+              </div>
+              <h3 class="tour-title">WebTech Summit</h3>
+              <p class="tour-role p-medium">Keynote Speaker</p>
+              <p class="tour-location p-small">San Francisco, CA (Moscone Center)</p>
+            </div>
+            <hr>
+        
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2023, December 12</p>
+              </div>
+              <h3 class="tour-title">Workshop "Responsive Design Strategies for Modern Websites"</h3>
+              <p class="tour-role p-medium"></p>
+              <p class="tour-location p-small">Copenhagen, Denmark (TBD)</p>
+            </div>
+            <hr>
+        
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2024, January 15-17</p>
+              </div>
+              <h3 class="tour-title">Developer's Paradise Conference</h3>
+              <p class="tour-role p-medium">Panelist</p>
+              <p class="tour-location p-small">Miami, FL (Miami Convention Center)</p>
+            </div>
+            <hr>
+        
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2024, January 22-23</p>
+              </div>
+              <h3 class="tour-title">CodeCraft Workshop</h3>
+              <p class="tour-role p-medium">Guest Instructor</p>
+              <p class="tour-location p-small">New York City, NY (TBD)</p>
+            </div>
+            <hr>
+        
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2024, February 5-6</p>
+              </div>
+              <h3 class="tour-title">Design & Develop Summit</h3>
+              <p class="tour-role p-medium">Featured Speaker</p>
+              <p class="tour-location p-small">Austin, TX (Austin Convention Center)</p>
+            </div>
+            <hr>
+        
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2024, February 15</p>
+              </div>
+              <h3 class="tour-title">Workshop "Advanced JavaScript Techniques"</h3>
+              <p class="tour-role p-medium"></p>
+              <p class="tour-location p-small">Copenhagen, Denmark (TBD)</p>
+            </div>
+            <hr>
+        
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2024, March 10-12</p>
+              </div>
+              <h3 class="tour-title">WebMasters Expo</h3>
+              <p class="tour-role p-medium">Keynote Speaker</p>
+              <p class="tour-location p-small">Las Vegas, NV (Las Vegas Convention Center)</p>
+            </div>
+            <hr>
+        
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2024, March 18</p>
+              </div>
+              <h3 class="tour-title">Workshop "Mastering CSS Grid Layouts"</h3>
+              <p class="tour-role p-medium"></p>
+              <p class="tour-location p-small">Copenhagen, Denmark (TBD)</p>
+            </div>
+            <hr>
+        
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2024, April 5</p>
+              </div>
+              <h3 class="tour-title">Workshop "Optimizing Performance in Web Applications"</h3>
+              <p class="tour-role p-medium"></p>
+              <p class="tour-location p-small">Copenhagen, Denmark (TBD)</p>
+            </div>
+            <hr>
+        
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2024, April 19-20</p>
+              </div>
+              <h3 class="tour-title">Frontend Focus Conference</h3>
+              <p class="tour-role p-medium">Panel Moderator</p>
+              <p class="tour-location p-small">Seattle, WA (Washington State Convention Center)</p>
+            </div>
+            <hr>
+        
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2024, May 8-9</p>
+              </div>
+              <h3 class="tour-title">Developer's Summit</h3>
+              <p class="tour-role p-medium">Featured Speaker</p>
+              <p class="tour-location p-small">Chicago, IL (McCormick Place)</p>
+            </div>
+            <hr>
+        
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2024, May 15-16</p>
+              </div>
+              <h3 class="tour-title">WebTech Summit</h3>
+              <p class="tour-role p-medium">Keynote Speaker</p>
+              <p class="tour-location p-small">Boston, MA (Hynes Convention Center)</p>
+            </div>
+            <hr>
+        
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2024, June 6</p>
+              </div>
+              <h3 class="tour-title">Workshop "Building Progressive Web Apps"</h3>
+              <p class="tour-role p-medium"></p>
+              <p class="tour-location p-small">Copenhagen, Denmark (Den Sorte Diamant)</p>
+            </div>
+            <hr>
+        
+            <div class="tour-event">
+              <div class="tour_date_flex">
+                <img src="/img/microphone.png" alt="Microphone icon" class="tour-icon" />
+                <p class="tour-date p-small">2024, June 20</p>
+              </div>
+              <h3 class="tour-title">Workshop "Mastering React: Best Practices and Advanced Techniques"</h3>
+              <p class="tour-role p-medium"></p>
+              <p class="tour-location p-small">Aarhus, Denmark (TBD)</p>
+            </div>
+        
+          </div>   
+    </section>
+    
+    <section id="books">
+        <h2>Books</h2>
+        <div class="books-container">
+
+            <!-- Book 1 -->
+            <div class="book-item">
+              <img src="/img/book_php.png" alt="Advanced PHP cover image" class="book-image" />
+              <div class="text-container">
+                <h3 class="book-title">Advanced PHP</h3>
+                <div class="subtitle-year-container">
+                  <h4 class="book-subtitle">From Zero to Hero</h4>
+                  <p class="book-year">(2023)</p>
+                </div>
+                <p class="book-description">Advanced PHP: From Zero to Hero is a groundbreaking book that unlocks the full potential of PHP programming. With meticulous detail, Lind guides readers through advanced concepts, empowering them to master complex topics such as object-oriented programming, database integration, and secure web application development. This comprehensive guide is a must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.</p>
+              </div>
+            </div>
+            <hr>
+        
+            <!-- Book 2 -->
+            <div class="book-item">
+              <img src="/img/book_css.png" alt="CSS for Developers cover image" class="book-image" />
+              <div class="text-container">
+                <h3 class="book-title">CSS for Developers</h3>
+                <div class="subtitle-year-container">
+                  <h4 class="book-subtitle">A Visual Journey</h4>
+                  <p class="book-year">(2022)</p>
+                </div>
+                <p class="book-description">This work offers an immersive exploration of CSS that transcends mere syntax. Through vivid illustrations and practical examples, Lind demystifies the intricacies of CSS, equipping developers with the tools to craft stunning, responsive designs. This visual masterpiece is an indispensable companion for developers seeking to elevate their CSS skills and create visually captivating websites.</p>
+              </div>
+            </div>
+            <hr>
+        
+            <!-- Book 3 -->
+            <div class="book-item">
+              <img src="/img/book_js.png" alt="Advanced JavaScript cover image" class="book-image" />
+              <div class="text-container">
+                <h3 class="book-title">Advanced JavaScript</h3>
+                <div class="subtitle-year-container">
+                  <h4 class="book-subtitle">Frameworkless</h4>
+                  <p class="book-year">(2021)</p>
+                </div>
+                <p class="book-description">In Advanced JavaScript: Frameworkless, Tristan Wede Lind revolutionizes the approach to JavaScript development. Breaking free from the confines of frameworks, Lind delves into the core principles and advanced techniques that empower developers to create robust, scalable, and framework-independent JavaScript applications. This essential guide unveils the true potential of JavaScript, transforming developers into true masters of the language.</p>
+              </div>
+            </div>
+            <hr>
+        
+            <!-- Book 4 -->
+            <div class="book-item">
+              <img src="/img/book_programming.png" alt="Basic Programming cover image" class="book-image" />
+              <div class="text-container">
+                <h3 class="book-title">Basic Programming</h3>
+                <div class="subtitle-year-container">
+                  <h4 class="book-subtitle">Algorithms and Beyond</h4>
+                  <p class="book-year">(2017)</p>
+                </div>
+                <p class="book-description">A definitive guide that demystifies the fundamentals of programming. With clarity and precision, Lind introduces readers to essential concepts such as variables, loops, and conditionals, while also delving into the world of algorithms. This comprehensive resource equips aspiring programmers with the foundational knowledge needed to embark on a successful coding journey.</p>
+              </div>
+            </div>
+            <hr>
+        
+            <!-- Book 5 -->
+            <div class="book-item">
+              <img src="/img/book_js_basic.png" alt="Basic JavaScript cover image" class="book-image" />
+              <div class="text-container">
+                <h3 class="book-title">Basic JavaScript</h3>
+                <div class="subtitle-year-container">
+                  <h4 class="book-subtitle">Tweaking the Web</h4>
+                  <p class="book-year">(2017)</p>
+                </div>
+                <p class="book-description">Basic JavaScript is a transformative book that demystifies the building blocks of JavaScript. With practical examples and step-by-step instructions, Lind empowers readers to enhance websites with interactive elements and dynamic functionalities. This essential guide unlocks the power of JavaScript, enabling readers to tweak the web and create engaging user experiences.</p>
+              </div>
+            </div>
+            <hr>
+        
+            <!-- Book 6 -->
+            <div class="book-item">
+              <img src="/img/book_front_end.png" alt="Front-End Web Development cover image" class="book-image" />
+              <div class="text-container">
+                <h3 class="book-title">Front-End Web Development</h3>
+                <div class="subtitle-year-container">
+                  <h4 class="book-subtitle">A Nice Introduction</h4>
+                  <p class="book-year">(2016)</p>
+                </div>
+                <p class="book-description">Tristan Wede Lind crafts a captivating journey into the world of front-end development. Lind artfully introduces readers to HTML, CSS, and JavaScript, unraveling the secrets of creating visually stunning and interactive websites. With its approachable style and comprehensive coverage, this book is the perfect starting point for aspiring front-end developers.</p>
+              </div>
+            </div>
+        
+          </div>
+         </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+<div class="contact-flex-box">
+    <div class="profiles_and_form">
+    <div class="contact-profile"> 
+        <img src="/img/victoria.png" alt="victoria" class="round-image">
+        <div class="profile-text">
+            <h3>Publishing</h3>            
+            <p>Victoria Marsh (Editor)</p>
+            <p><a href="mailto:victoriamarsh@keapublishing.com">victoriamarsh@keapublishing.com</a></p> 
+            <p>Phone:<a href="(+44) 079 7502 0028">(+44) 079 7502 0028</a></p> 
+        </div>
+    </div> 
+    <hr>
+    <div class="contact-profile">           
+        <img src="/img/elly.png" alt="Elly" class="round-image">
+        <div class="profile-text">
+            <h3>Booking</h3>
+            <p>Elly Houthuijzen (Agent)</p>
+            <p><a href="mailto:elly@houthuijzen.com">elly@houthuijzen.com</a></p> 
+            <p>Phone:<a href="(+31) 06-42821232">(+31) 06-42821232</a></p> 
+        </div>
+    </div>
+    <form>
+        <fieldset>
+            <legend>Request booking</legend>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+            </div>
+            <div>
+                <label for="email">E-mail address</label>
+                <input type="text" name="email" id="email" />
+            </div>
+            <div>
+                <label for="enquiry">Enquiry</label><br />
+                <textarea name="enquiry" id="enquiry"></textarea>
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</div>
+<div>
+    <img src="/img/conference.jpg" class="show-on-big-ipad conference-img" alt="conference img">
+</div>
+</div>
+
+</section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-grid-one">
+                <div class="footer-logo">
+                    <img src="/img/keapublishing.png" alt="KEA Publishing Logo">
+                    <p>KEA Publishing, Inc.</p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#"><img src="/img/twitter.png" alt="Twitter Icon" class="round-icon"></a>
+                    <a href="#"><img src="/img/linkedin.png" alt="LinkedIn Icon" class="round-icon"></a>
+                    <a href="#"><img src="/img/facebook.png" alt="Facebook Icon" class="round-icon"></a>
+                </div>
+            </div>
+            
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            
+            <div class="footer-credits">
+                <p>Person pictures by <span class="provider-name">Matheus Bertelli</span></p>
+                <p>Book cover pictures by <span class="provider-name">123RF</span></p>
+                <p>SoMe icons generated with <span class="provider-name">Powr.io</span></p>
+                <p>Microphone icon by <span class="provider-name">Freepik</span></p>
+                <p>Up arrow icon by <span class="provider-name">Yogi Aprllyianto</span></p>
+                <p>Texts generated by <span class="provider-name">ChatGPT</span></p>
+            </div>
+        </div>
+            
+            <div class="footer-copyright">
+                <p>&copy; 2023 KEA Development</p>
+        </div>
+    </footer>
+    
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+/* Footer Styling */
+footer {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* KEA Publishing Logo and Name */
+.footer-logo {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    gap: 10px; /* Space between logo image and text */
+    margin-bottom: 10px;
+}
+
+.footer-logo img {
+    width: 50px;
+}
+
+.footer-logo p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Social Media Icons - aligned horizontally */
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Space between icons */
+    margin: 10px 0;
+}
+
+.footer-social a img {
+    width: 30px;
+    transition: transform 0.3s ease;
+}
+
+.footer-social a img:hover {
+    transform: scale(1.1); /* Small scaling effect on hover */
+}
+
+/* Links for Privacy Policy, Terms of Service, Cookie Policy */
+.footer-links {
+    margin: 15px 0;
+}
+
+.footer-links a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 14px;
+    display: block; /* Each link on a new line */
+    margin: 5px 0; /* Vertical spacing between links */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Credits Styling */
+.footer-credits p {
+    color: var(--dark-beige);
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+}
+/* Specific styling for provider names in credits */
+.footer-credits .provider-name {
+    color: var(--white);
+ /* Make provider names white */
+}
+
+/* Spacing between credits and copyright */
+.footer-credits {
+    margin-bottom: 15px;
+}
+
+/* Copyright Styling */
+.footer-copyright {
+    font-size: 12px;
+    color: var(--dark-beige);
+    margin-top: 10px;
+}
+
+
+.round-icon {
+    border-radius: 50%;    /* Makes the image round */
+    object-fit: cover;     /* Ensures the image covers the entire area without distortion */
+}
+@media (min-width: 768px) {
+
+.footer-grid {
+    display: grid;                      /* Enable grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    gap: 20px;                         /* Space between grid items */
+}
+.footer-social, .footer-logo{
+    justify-content: left;
+}
+
+.footer-credits{
+    text-align: right;
+}
+
+.footer-links {
+    margin: 0;
+  }
+}

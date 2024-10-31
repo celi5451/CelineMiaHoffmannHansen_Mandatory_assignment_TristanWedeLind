@@ -1,0 +1,99 @@
+
+#contact img{
+    margin: 0 auto;
+}
+
+.contact-profile{
+   margin-top: 20px;
+}
+
+#contact h3{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+fieldset{
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+        div{
+            display: flex;              /* Enable flexbox */
+            flex-direction: column; /* Align items in a column */
+        }
+    label{
+        margin-top: 10px;
+    }
+    button{
+        margin:20px;
+        height:40px;
+        width: 70px;
+    }
+    
+}
+
+#contact a{color: var(--link-blue);
+text-decoration: none;}
+
+/*small tablet*/
+@media (min-width: 768px) {
+    .contact-profile{
+        display: flex;
+    }
+    .profiles_and_form{width: 100%;}
+    .profile-text{
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+
+/*big tablet*/
+@media (min-width: 810px) {
+    #contact .conference-img{
+        display: block;
+        width: 100%;
+        min-width: 300px;
+        max-height: 100%;
+        object-fit: contain;
+    }
+    .contact-profile{
+        width: 100%;
+        padding-left: 0;
+        .round-image{margin-left: 100px;}
+    }
+    .contact-flex-box{
+        display: flex;
+        padding-top: 10px;
+    }
+    #contact div{
+        margin-right: 10px;
+        padding-bottom: 10px;
+    }
+    .contact-flex-box div{    
+        margin:10px;
+    }
+    
+    fieldset{margin: 0;
+    }
+
+    .profile-text{margin-left: 20px;}
+}
+
+/*desktop*/
+@media (min-width: 1200px) {
+.contact-profile{
+    border: 1px solid var(--dark-beige);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+#contact .conference-img{
+    display: block;
+    width: 100%;
+    min-width: 600px;
+    height: 100%;
+    object-fit: contain;
+}
+  .profiles_and_form{margin-right: 20px;}
+
+}

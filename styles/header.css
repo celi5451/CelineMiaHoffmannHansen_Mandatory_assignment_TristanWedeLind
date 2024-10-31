@@ -1,0 +1,110 @@
+header {
+    background-color: var(--dark-blue);
+    color: var(--dark-beige);
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.header-flex{
+    padding: 10px;
+}
+header p {
+    margin: 5px 0;
+    font-size: var(--font-size-p-big);
+    padding-bottom: 10px;
+
+}
+nav {
+    background-color: var(--lighter-blue);
+    display: flex;                   /* Use flexbox for layout */
+    flex-direction: column;          /* Stack links vertically */
+    align-items: center;             /* Center items horizontally */
+}
+
+nav a {
+    color: var(--lighter-beige);
+    text-decoration: none;
+    padding: 10px;                /* Add vertical spacing between links */
+    font-size: 1em;
+    width: 100%;                    /* Make each link take the full width */
+    text-align: center; 
+    border-bottom: solid var(--dark-beige) 1px;            /* Center the text within the link */
+}
+
+/* Media query for screens 768px and wider */
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row;          /* Align links in a single row */
+        justify-content: center;      /* Center links within the nav */
+    }
+
+    nav a {
+        margin: 0 15px;              /* Horizontal spacing between links */
+        width: auto;                  /* Remove full width to allow for spacing */
+        border-bottom: none;            /* Center the text within the link */
+    }
+
+}
+nav a:hover {
+    color: var(--dark-blue);
+}
+
+#new-release {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--dark-beige); /* Example background color */
+    color: var(--text-base-color);
+}
+
+.new-release-button {
+    background-color: var(--bordeaux);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.release-book-image{    
+    margin: 0 auto; /* Center the image */
+
+}
+
+.release-text{
+    align-self: center;
+    h3{
+        margin-top: 30px;
+    }
+    p{
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    #new-release{
+        display: flex;
+    }
+    .release-text{
+        width: 100%;}
+    .release-book-image{
+        margin: 0 ;
+    }
+    
+    .header-flex {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center; /* Vertically centers items */
+        gap: 20px; /* Space between elements */
+    }
+    #language-switcher{
+        height: 20px;
+        margin: auto;
+    }
+    nav{gap: 40px;}
+}
+
