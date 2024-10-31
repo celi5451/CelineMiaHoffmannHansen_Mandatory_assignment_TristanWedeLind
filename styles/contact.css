@@ -77,6 +77,8 @@ text-decoration: none;}
     }
 
     .profile-text{margin-left: 20px;}
+    
+
 }
 
 /*desktop*/
@@ -94,6 +96,17 @@ text-decoration: none;}
     height: 100%;
     object-fit: contain;
 }
-  .profiles_and_form{margin-right: 20px;}
-
+.profiles_and_form{
+    margin-right: 20px;
+}
+.no-border-around{
+    border: 0px solid var(--dark-beige);
+}
+.border-around{
+    border: 1px solid var(--dark-beige);
+    border-radius: 5px;
+    margin: 5px;
+    width: 100%;
+}
+form{margin: 20px;}
 }
