@@ -56,10 +56,6 @@
 
 /*desktop*/
 @media (min-width: 1200px) {
-}
-
-/*desktop*/
-@media (min-width: 1200px) {
     .books-container{
         display: grid;
         grid-template-columns: 1fr 1fr;}
@@ -71,4 +67,13 @@
         padding: 10px;
     }
     hr {display: none;}
+    .book-image {
+        width: 100%;
+        height: auto; /* Ensures the image maintains its aspect ratio */
+        width: 200px; /* Adjust this to the appropriate size */
+        object-fit: contain;
+    }
+    .text-container {
+        max-width: 450px; /* Adjust as necessary to maintain layout */
+    }
 }
